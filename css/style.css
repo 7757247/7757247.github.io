@@ -1,0 +1,125 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: #8c8c8c;
+    font-weight: 300;
+    min-width: 320px;
+  
+
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway';
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 30px;
+    color: #555555;
+}
+
+.button {
+    background: #998675;
+    font-size: 14px;
+    font-family: 'Raleway';
+    font-weight: 800;
+    border-radius: 3px;
+    color: #ffffff;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    border: none;
+    box-shadow: 0 2px 0 #736357;
+}
+
+.header {
+    height: 100vh;
+    background: url('../img/img2.jpg')no-repeat center center;
+    position: relative;
+    background-size: cover;
+
+}
+
+.header .nav-link {
+    color: #ffffff !important;
+    font-size: 30px;
+    margin: 7px;
+    font-weight: 400;
+
+}
+
+
+.header .menu-top .nav-link::after{
+    content:'';
+    display: block;
+    height: 3px;
+    background: #ffe600;
+  
+}
+.header .menu-top .nav-link:hover::after{
+    display: none;
+    width: 100%;
+    margin: auto;
+}
+
+
+
+
+.header .carousel-item {
+    height: 100vh;
+}
+
+.header .menu-top {
+    position: absolute;
+    width: 100%;
+}
+
+.header .carousel-control-prev-icon {
+    background: url('../img/left.png');
+
+    width: 40px;
+    height: 70px;
+}
+
+.header .carousel-control-next-icon {
+    background: url('../img/right.png');
+    width: 40px;
+    height: 70px;
+}
+
+.header .carousel-caption h5 {
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 36px;
+    color: #fffffff;
+}
+
+.header .carousel-caption h1 {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 52px;
+    color: #fffffff;
+    text-transform: uppercase;
+}
+
+.header .carousel-caption p {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 16px;
+    color: #fffffff;
+}
+
+.carousel-caption {
+    bottom: 30%;
+}
